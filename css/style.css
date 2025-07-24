@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* 初期スタイル調整 */
+
+* {
+  box-sizing: border-box;
+}
+
+/* body全体の初期スタイル調整 */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #806342;
+  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+/* 各要素の初期スタイル調整 */
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+a {
+  color: #806342;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+ul {
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: none;
+}
+
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.logo {
+    margin: 0;
+    text-align: center;
+}
